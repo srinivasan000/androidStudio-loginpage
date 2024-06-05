@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fed"
+    >
+    
+<LinearLayout
+       android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fed">
+        
+  <EditText
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="300dp"
+    android:id="@+id/emailSignup"
+    android:background="@drawable/shape"
+    android:padding="10dp"
+    />
+
+   <EditText
+    android:hint="password"
+    android:inputType="textPassword"
+    android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:id="@+id/passwordSignup"
+    android:background="@drawable/shape"
+    android:padding="10dp"
+    />
+    
+   <EditText
+    android:hint="confirm password"
+    android:inputType="textPassword"
+    android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:id="@+id/confirmpasswordSignup"
+    android:background="@drawable/shape"
+    android:padding="10dp"
+    />
+    
+    <Button
+    android:text="Signup"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:id="@+id/signup"
+    android:layout_marginTop="20dp"
+        android:textColor="#fff"
+    />
+        <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        />
+   
+</LinearLayout>
+</ScrollView>
